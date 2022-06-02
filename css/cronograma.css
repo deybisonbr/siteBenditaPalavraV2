@@ -1,0 +1,43 @@
+.content{
+    background-color: #fff;
+    max-width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+/*Cronograma*/
+.container-cronograma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.container-cronograma img{
+    width: 1024px;
+}
+.container-cronograma h2, .crono-h3, .crono-p{
+    letter-spacing: 2px;
+    text-align: justify;
+    width: 912px;
+
+}
+.container-cronograma h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.crono-h3{
+    font-weight: bold;
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 27px;
+
+}
+.crono-p{
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}

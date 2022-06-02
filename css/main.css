@@ -1,0 +1,63 @@
+main{
+    grid-area: main; 
+}
+.container-messenger{
+    color: white;
+    height: 100%;
+    max-width: 100%;
+    background-color: var(--color-blue-clean);
+    background-image: url(../img/bg-msg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: #000000 1px 1px 1px;
+}
+.fundo-azul{
+    display: flex; 
+    height: 100%;
+    width: 100%;
+    background-color: rgba(5, 134, 255, 0.418);
+    flex-direction: column;
+    justify-content: space-between;
+}
+.waves{
+    height: 30%;
+}
+
+.messenger{
+    width: 55%;
+    margin: 0 auto;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.botton-leia{
+    background-image: linear-gradient(to top, var(--color-green-clean), var(--color-green-dark));
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width:400px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 27px;
+    color: #fff;
+    margin: 0 auto;
+    text-shadow: #000000 1px 1px 1px;
+    border:rgb(2, 255, 2) solid 1px;
+    filter: opacity(100%);
+    transition: 0.5s ease-in-out;
+    
+}
+.botton-leia:hover{
+    filter: opacity(90%);
+    
+}
+.botton-leia a{
+    padding: 10px 79px;
+}
+
+.content{
+    background-color: #fff;
+    height: 800px;
+}

@@ -1,0 +1,50 @@
+.container-plano{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-blue-dark);
+    color: var(--color-white);
+    max-width: 100%;
+    padding-bottom: 100px;
+}
+
+.container-plano h2, .plano-p{
+    text-transform: uppercase;
+}
+.container-plano h2{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.select-plano{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin-top: 80px;
+    color: #000;
+}
+
+.plano-p{
+    margin-top: 10px;
+    width: 800px;
+    font-size: 18px;
+    text-align: center;
+}
+.box-devo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #fff;
+    color: #000;
+}
+.h3-box{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 0 0 10px;
+}
+.p-box{
+    font-size: 17px;
+    padding:0 0 10px 20px;
+}
