@@ -50,8 +50,9 @@ main{
     
 }
 .botton-leia:hover{
-    filter: opacity(90%);
-    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .botton-leia a{
     padding: 10px 79px;

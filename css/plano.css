@@ -38,6 +38,15 @@
     background-color: #fff;
     color: #000;
 }
+.devo-links{
+    transition: 0.5s ease-in-out;
+}
+.devo-links:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
 .h3-box{
     text-transform: uppercase;
     font-weight: bold;
