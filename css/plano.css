@@ -87,3 +87,10 @@
         width: 400px;
     }
 }
+
+
+@media(max-width: 420px){
+    .box-devo{
+        width: 300px;
+    }
+}

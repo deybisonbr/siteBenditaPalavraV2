@@ -67,8 +67,33 @@ main{
     .messenger{
         width: 85%;
         margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .botton-leia{
+        width: 400px;
+        font-size: 19px;
+        margin-bottom: 30px;
+
+    }
+    .botton-leia a{
+        padding: 10px 60px;
+    }
+    .container-messenger{
+        height: 90%;
+    }
+}
+
+@media(max-width: 1024px){
+    .messenger{
+        font-size: 25px;
     }
     .botton-leia{
-        margin-bottom: 30px;
+        width: 300px;
+        font-size: 19px;
+        
+    }
+    .container-messenger{
+        height: 90%;
     }
 }
