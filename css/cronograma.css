@@ -1,6 +1,6 @@
 .content{
     background-color: #fff;
-    max-width: 100%;
+    max-width: 100vw;
     height: 100%;
     font-size: 20px;
 }
@@ -14,7 +14,7 @@
 }
 
 .container-cronograma img{
-    width: 1024px;
+    width: 80%;
 }
 .container-cronograma h2, .crono-h3, .crono-p{
     letter-spacing: 2px;

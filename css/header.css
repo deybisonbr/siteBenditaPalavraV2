@@ -4,7 +4,7 @@ header{
     justify-content: center;
     background-color: var(--color-blue-clean);
     max-height: 70px;
-    max-width: 100%;
+    max-width: 100vw;
     color: var(--color-white);
     grid-area: header;
     box-shadow: #000 10px 10px 10px;
