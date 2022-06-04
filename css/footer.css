@@ -62,8 +62,13 @@ footer{
     margin-top: 7px;
     text-transform: uppercase;
 }
-
-
+.p-creditos a{
+    color: var(--color-blue-clean);
+    transition: 2s;
+}
+.p-creditos a:hover{
+    filter: grayscale(80%);
+}
 @media(max-width: 1400px){
     .redes-sociais{
         width: 95%;
@@ -80,6 +85,9 @@ footer{
     }
     .redes-footer{
         margin-top: 20px;
+    }
+    .p-creditos{
+        text-align: center;
     }
 
 }

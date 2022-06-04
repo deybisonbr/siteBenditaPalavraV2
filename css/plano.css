@@ -12,6 +12,7 @@
     text-transform: uppercase;
 }
 .container-plano h2{
+    text-align: center;
     margin-top: 50px;
     font-size: 25px;
     font-weight: bold;
