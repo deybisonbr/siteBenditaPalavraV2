@@ -155,3 +155,10 @@ nav a:hover::after{
         display: flex;
     }
 }
+
+@media(max-width: 690px){
+    .container-nav-title{
+        margin: 0 30px;
+    }
+    
+}
