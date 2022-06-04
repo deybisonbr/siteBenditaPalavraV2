@@ -3,7 +3,7 @@ main{
 }
 .container-messenger{
     color: white;
-    height: 100%;
+    height: 90%;
     max-width: 100vw;
     background-color: var(--color-blue-clean);
     background-image: url(../img/bg-msg.jpg);

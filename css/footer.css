@@ -19,7 +19,7 @@ footer{
 }
 .mensagem-footer{
     font-size: 30px;
-    width: 800px;
+    width: 80%;
     text-align: center;
 }
 .container-line-footer{
@@ -81,4 +81,5 @@ footer{
     .redes-footer{
         margin-top: 20px;
     }
+
 }

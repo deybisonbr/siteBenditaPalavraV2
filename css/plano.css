@@ -62,14 +62,27 @@
     .select-plano{
         grid-column-gap: 30px;
         grid-row-gap: 30px;
+        grid-template-columns: 2fr;
     }
     .box-devo{
-        width: 450px;
+        width: 600px;
     }
     .h3-box{
         font-size: 13px;
     }
     .p-box{
         font-size: 13;
+    }
+    .plano-p{
+        margin-top: 10px;
+        width: 70%;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 690px){
+    .box-devo{
+        width: 400px;
     }
 }
