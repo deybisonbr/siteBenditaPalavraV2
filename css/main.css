@@ -62,3 +62,13 @@ main{
     background-color: #fff;
     height: 800px;
 }
+
+@media(max-width: 1400px){
+    .messenger{
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .botton-leia{
+        margin-bottom: 30px;
+    }
+}

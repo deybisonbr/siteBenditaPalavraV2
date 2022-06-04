@@ -64,3 +64,21 @@ footer{
 }
 
 
+@media(max-width: 1400px){
+    .redes-sociais{
+        width: 95%;
+    }
+
+}
+@media(max-width: 1024px){
+    .nav-footer{
+        display: none;
+    }
+    .redes-sociais{
+        flex-direction: column;
+
+    }
+    .redes-footer{
+        margin-top: 20px;
+    }
+}

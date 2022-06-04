@@ -57,3 +57,19 @@
     font-size: 17px;
     padding:0 0 10px 20px;
 }
+
+@media(max-width: 1024px){
+    .select-plano{
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .box-devo{
+        width: 450px;
+    }
+    .h3-box{
+        font-size: 13px;
+    }
+    .p-box{
+        font-size: 13;
+    }
+}
